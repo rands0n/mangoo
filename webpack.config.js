@@ -14,7 +14,8 @@ module.exports = {
   resolve: {
     alias: {
       string: join(__dirname, 'src/string'),
-      lang: join(__dirname, 'src/lang')
+      lang: join(__dirname, 'src/lang'),
+      number: join(__dirname, 'src/number')
     }
   }
 }
