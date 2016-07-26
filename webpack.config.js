@@ -1,10 +1,10 @@
 const join = require('path').join
 
 module.exports = {
-  entry: './src/artisan.js',
+  entry: './src/mangoo.js',
   output: {
     path: join(__dirname, 'dist'),
-    filename: 'artisan.js'
+    filename: 'mangoo.js'
   },
   module: {
     loaders: [

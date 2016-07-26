@@ -1,6 +1,6 @@
 {
-  "name": "artisan",
-  "version": "0.0.0",
+  "name": "mangoo",
+  "version": "0.5.0",
   "description": "Modular Javascript Utilities",
   "main": "index.js",
   "scripts": {

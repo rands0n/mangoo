@@ -5,11 +5,11 @@ module.exports = function (config) {
     frameworks: ['mocha', 'chai'],
 
     files: [
-      'tests/spectacles.js'
+      'tests/mangoo.js'
     ],
 
     preprocessors: {
-      'tests/spectacles.js': ['webpack', 'sourcemap']
+      'tests/mangoo.js': ['webpack', 'sourcemap']
     },
 
     webpack: {
