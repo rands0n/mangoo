@@ -23,7 +23,8 @@ module.exports = function (config) {
         alias: {
           string: join(__dirname, 'src/string'),
           lang: join(__dirname, 'src/lang'),
-          number: join(__dirname, 'src/number')
+          number: join(__dirname, 'src/number'),
+          constants: join(__dirname, 'src/constants')
         }
       }
     },
