@@ -7,8 +7,6 @@
     "mocha": true
   },
   "globals": {
-    "expect": true,
-    "fixture": true,
-    "sinon": true
+    "expect": true
   }
 }
