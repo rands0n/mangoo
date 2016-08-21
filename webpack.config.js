@@ -13,6 +13,7 @@ module.exports = {
   },
   resolve: {
     alias: {
+      array: join(__dirname, 'src/array'),
       string: join(__dirname, 'src/string'),
       lang: join(__dirname, 'src/lang'),
       number: join(__dirname, 'src/number'),
