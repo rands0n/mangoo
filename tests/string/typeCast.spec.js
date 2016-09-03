@@ -1,4 +1,4 @@
-import typeCast from 'string/typeCast'
+import { typeCast } from 'string'
 
 describe('String', () => {
   describe('#typeCast', () => {

@@ -1,4 +1,4 @@
-import contains from 'string/contains'
+import { contains } from 'string'
 
 describe('String', () => {
   describe('#contains', () => {

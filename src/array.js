@@ -1,4 +1,4 @@
-import last from 'array/last'
+import { last } from 'array/last'
 
 export {
   last

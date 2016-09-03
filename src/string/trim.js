@@ -1,10 +1,9 @@
-import toString from 'lang/toString'
+import { toString } from 'lang'
+import { ltrim, rtrim } from 'string'
+
 import WHITE_SPACES from 'constants/white-spaces'
 
-import ltrim from 'string/ltrim'
-import rtrim from 'string/rtrim'
-
-export default function trim (str, chars) {
+export const trim = (str, chars) => {
   str = toString(str)
   chars = chars || WHITE_SPACES
 

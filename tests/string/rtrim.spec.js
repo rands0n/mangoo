@@ -1,4 +1,4 @@
-import rtrim from 'string/rtrim'
+import { rtrim } from 'string'
 
 describe('String', () => {
   describe('#rtrim', () => {

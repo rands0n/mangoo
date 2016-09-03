@@ -1,6 +1,6 @@
-import toString from 'lang/toString'
+import { toString } from 'lang'
 
-export default function upperCase (str) {
+export const upperCase = (str) => {
   str = toString(str)
 
   return str.toUpperCase()

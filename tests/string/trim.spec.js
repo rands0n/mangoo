@@ -1,4 +1,4 @@
-import trim from 'string/trim'
+import { trim } from 'string'
 
 describe('String', () => {
   describe('#trim', () => {

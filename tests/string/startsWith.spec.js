@@ -1,4 +1,4 @@
-import startsWith from 'string/startsWith'
+import { startsWith } from 'string'
 
 describe('String', () => {
   describe('#startsWith', () => {

@@ -1,3 +1,3 @@
-export default function toString (val) {
+export const toString = (val) => {
   return val == null ? '' : val.toString()
 }

@@ -1,6 +1,6 @@
-import toString from 'lang/toString'
+import { toString } from 'lang'
 
-export default function endsWith (str, suffix) {
+export const endsWith = (str, suffix) => {
   str = toString(str)
   suffix = toString(suffix)
 

@@ -1,4 +1,4 @@
-import endsWith from 'string/endsWith'
+import { endsWith } from 'string'
 
 describe('String', () => {
   describe('#endsWith', () => {

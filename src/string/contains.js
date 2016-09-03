@@ -1,6 +1,6 @@
-import toString from 'lang/toString'
+import { toString } from 'lang'
 
-export default function contains (str, subString, fromIndex) {
+export const contains = (str, subString, fromIndex) => {
   str = toString(str)
   subString = toString(subString)
 

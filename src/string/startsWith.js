@@ -1,6 +1,6 @@
-import toString from 'lang/toString'
+import { toString } from 'lang'
 
-export default function startsWith (str, prefix) {
+export const startsWith = (str, prefix) => {
   str = toString(str)
   prefix = toString(prefix)
 

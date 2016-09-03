@@ -1,7 +1,7 @@
-import toString from 'lang/toString'
+import { toString } from 'lang'
 import WHITE_SPACES from 'constants/white-spaces'
 
-export default function rtrim (str, chars) {
+export const rtrim = (str, chars) => {
   str = toString(str)
   chars = chars || WHITE_SPACES
 

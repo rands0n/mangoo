@@ -1,6 +1,6 @@
-import toString from 'lang/toString'
+import { toString } from 'lang'
 
-export default function lowerCase (str) {
+export const lowerCase = (str) => {
   str = toString(str)
 
   return str.toLowerCase()

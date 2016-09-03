@@ -1,6 +1,4 @@
-const UNDEF = undefined
-
-export default function typeCast (val) {
+export const typeCast = (val) => {
   let value
 
   if (val === 'null' || val === null) {
@@ -9,7 +7,7 @@ export default function typeCast (val) {
     value = true
   } else if (val === 'false') {
     value = false
-  } else if (val === UNDEF || val === 'undefined') {
+  } else if (val === undefined || val === 'undefined') {
     value = undefined
   } else if (val === '' || isNaN(val)) {
     value = val // isNaN('') returns false
