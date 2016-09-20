@@ -2,7 +2,7 @@
   "name": "mangoo",
   "version": "0.5.0",
   "description": "Modular Javascript Utilities",
-  "main": "index.js",
+  "main": "./src/mangoo.js",
   "scripts": {
     "test": "karma start --single-run --reporters dots,coverage",
     "test:watch": "karma start"
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rands0n/spectacles.git"
+    "url": "git+https://github.com/rands0n/mangoo.git"
   },
   "keywords": [
     "modular",
@@ -48,7 +48,7 @@
   "author": "Randson Oliveira <orandson@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rands0n/spectacles/issues"
+    "url": "https://github.com/rands0n/mangoo/issues"
   },
   "homepage": "https://github.com/rands0n/spectacles#readme"
 }
