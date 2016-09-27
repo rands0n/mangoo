@@ -25,5 +25,11 @@ describe('Array', () => {
         expect(copy(arr)).to.deep.eql(arr)
       })
     })
+
+    context('with a undefined array', () => {
+      it('return empty array', () => {
+        expect(copy(void 0)).to.eql([])
+      })
+    })
   })
 })
