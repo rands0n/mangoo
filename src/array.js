@@ -1,6 +1,7 @@
 import { append } from 'array/append'
 import { contains } from 'array/contains'
 import { copy } from 'array/copy'
+import { filter } from 'array/filter'
 import { first } from 'array/first'
 import { head } from 'array/head'
 import { indexOf } from 'array/indexOf'
@@ -13,6 +14,7 @@ export {
   append,
   contains,
   copy,
+  filter,
   first,
   head,
   indexOf,
