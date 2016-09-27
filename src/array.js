@@ -6,6 +6,7 @@ import { head } from 'array/head'
 import { indexOf } from 'array/indexOf'
 import { isEmpty } from 'array/isEmpty'
 import { last } from 'array/last'
+import { shuffle } from 'array/shuffle'
 import { tail } from 'array/tail'
 
 export {
@@ -17,5 +18,6 @@ export {
   indexOf,
   isEmpty,
   last,
+  shuffle,
   tail
 }
