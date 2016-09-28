@@ -1,4 +1,5 @@
 import { append } from 'array/append'
+import { concat } from 'array/concat'
 import { contains } from 'array/contains'
 import { copy } from 'array/copy'
 import { filter } from 'array/filter'
@@ -12,6 +13,7 @@ import { tail } from 'array/tail'
 
 export {
   append,
+  concat,
   contains,
   copy,
   filter,
