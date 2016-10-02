@@ -1,4 +1,4 @@
-import { concat } from 'array'
+import { concat } from '../../src/array/concat'
 
 describe('Array', () => {
   describe('#concat', () => {

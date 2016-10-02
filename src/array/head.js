@@ -1,4 +1,4 @@
-import { first } from 'array'
+import { first } from './first'
 
 export const head = (arr) => {
   return first(arr)

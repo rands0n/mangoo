@@ -1,4 +1,4 @@
-import { append } from 'array'
+import { append } from '../../src/array/append'
 
 describe('Array', () => {
   describe('#append', () => {

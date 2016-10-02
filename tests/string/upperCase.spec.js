@@ -1,4 +1,4 @@
-import { upperCase } from 'string'
+import { upperCase } from '../../src/string/upperCase'
 
 describe('String', () => {
   describe('#upperCase', () => {

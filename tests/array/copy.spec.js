@@ -1,4 +1,4 @@
-import { copy } from 'array'
+import { copy } from '../../src/array/copy'
 
 describe('Array', () => {
   describe('#copy', () => {

@@ -1,4 +1,4 @@
-import { lowerCase } from 'string/lowerCase'
+import { lowerCase } from '../../src/string/lowerCase'
 
 describe('String', () => {
   describe('#lowerCase', () => {

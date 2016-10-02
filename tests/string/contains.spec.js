@@ -1,4 +1,4 @@
-import { contains } from 'string'
+import { contains } from '../../src/string/contains'
 
 describe('String', () => {
   describe('#contains', () => {

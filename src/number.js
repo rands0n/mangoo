@@ -1,4 +1,4 @@
-import { isNaN } from 'number/isNaN'
+import { isNaN } from './number/isNaN'
 
 export {
   isNaN

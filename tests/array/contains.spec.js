@@ -1,4 +1,4 @@
-import { contains } from 'array'
+import { contains } from '../../src/array/contains'
 
 describe('Array', () => {
   describe('#contains', () => {

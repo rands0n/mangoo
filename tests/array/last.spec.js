@@ -1,4 +1,4 @@
-import { last } from 'array'
+import { last } from '../../src/array/last'
 
 describe('Array', () => {
   describe('#last', () => {

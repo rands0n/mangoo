@@ -1,4 +1,4 @@
-import { toString } from 'lang'
+import { toString } from '../../src/lang/toString'
 
 describe('Lang', () => {
   describe('#toString', () => {

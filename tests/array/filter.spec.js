@@ -1,4 +1,4 @@
-import { filter } from 'array'
+import { filter } from '../../src/array/filter'
 
 describe('Array', () => {
   describe('#filter', () => {

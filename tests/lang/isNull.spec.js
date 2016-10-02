@@ -1,4 +1,4 @@
-import { isNull } from 'lang'
+import { isNull } from '../../src/lang/isNull'
 
 describe('Lang', () => {
   describe('#isNull', () => {

@@ -1,4 +1,4 @@
-import { head } from 'array'
+import { head } from '../../src/array/head'
 
 describe('Array', () => {
   describe('#head', () => {

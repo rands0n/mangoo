@@ -1,4 +1,4 @@
-import { toString } from 'lang'
+import { toString } from '../lang/toString'
 
 export const endsWith = (str, suffix) => {
   str = toString(str)

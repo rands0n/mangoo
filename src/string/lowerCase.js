@@ -1,4 +1,4 @@
-import { toString } from 'lang'
+import { toString } from '../lang/toString'
 
 export const lowerCase = (str) => {
   str = toString(str)

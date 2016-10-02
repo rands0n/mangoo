@@ -1,4 +1,4 @@
-import { isNaN } from 'number'
+import { isNaN } from '../../src/number/isNaN'
 
 describe('Number', () => {
   describe('#isNaN', () => {

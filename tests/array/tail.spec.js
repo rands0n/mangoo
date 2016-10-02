@@ -1,4 +1,4 @@
-import { tail } from 'array'
+import { tail } from '../../src/array/tail'
 
 describe('Array', () => {
   describe('#tail', () => {

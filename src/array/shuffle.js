@@ -1,4 +1,4 @@
-import { copy } from 'array'
+import { copy } from './copy'
 
 /**
  * Creates a copy of the source array and shuffle the values.

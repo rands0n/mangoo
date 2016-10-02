@@ -10,14 +10,5 @@ module.exports = {
     loaders: [
       { test: /.js?$/, exclude: /node_modules/, loader: 'babel-loader' }
     ]
-  },
-  resolve: {
-    alias: {
-      array: join(__dirname, 'src/array'),
-      string: join(__dirname, 'src/string'),
-      lang: join(__dirname, 'src/lang'),
-      number: join(__dirname, 'src/number'),
-      constants: join(__dirname, 'src/constants/')
-    }
   }
 }

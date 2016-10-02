@@ -1,4 +1,4 @@
-import { ltrim } from 'string'
+import { ltrim } from '../../src/string/ltrim'
 
 describe('String', () => {
   describe('#ltrim', () => {

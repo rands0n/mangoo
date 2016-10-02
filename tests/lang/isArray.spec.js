@@ -1,4 +1,4 @@
-import { isArray } from 'lang'
+import { isArray } from '../../src/lang/isArray'
 
 describe('Lang', () => {
   describe('#isArray', () => {

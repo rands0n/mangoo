@@ -1,4 +1,4 @@
-import { trim } from 'string'
+import { trim } from '../../src/string/trim'
 
 describe('String', () => {
   describe('#trim', () => {

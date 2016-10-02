@@ -1,4 +1,4 @@
-import { toString } from 'lang'
+import { toString } from '../lang/toString'
 
 export const contains = (str, subString, fromIndex) => {
   str = toString(str)

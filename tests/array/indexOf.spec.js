@@ -1,4 +1,4 @@
-import { indexOf } from 'array'
+import { indexOf } from '../../src/array/indexOf'
 
 describe('Array', () => {
   describe('#indexOf', () => {

@@ -1,4 +1,4 @@
-import { shuffle } from 'array'
+import { shuffle } from '../../src/array/shuffle'
 
 describe('Array', () => {
   describe('#shuffle', () => {

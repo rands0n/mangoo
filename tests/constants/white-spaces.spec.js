@@ -1,4 +1,4 @@
-import WHITE_SPACES from 'constants/white-spaces'
+import WHITE_SPACES from '../../src/constants/white-spaces'
 
 describe('Constants', () => {
   describe('WHITE_SPACES', () => {

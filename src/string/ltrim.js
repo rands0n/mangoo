@@ -1,5 +1,5 @@
-import { toString } from 'lang'
-import WHITE_SPACES from 'constants/white-spaces'
+import { toString } from '../lang/toString'
+import WHITE_SPACES from '../constants/white-spaces'
 
 export const ltrim = (str, chars) => {
   str = toString(str)

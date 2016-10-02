@@ -1,4 +1,4 @@
-import { isEmpty } from 'array'
+import { isEmpty } from '../../src/array/isEmpty'
 
 describe('Array', () => {
   describe('#isEmpty', () => {

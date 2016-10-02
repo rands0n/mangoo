@@ -1,4 +1,4 @@
-import { first } from 'array'
+import { first } from '../../src/array/first'
 
 describe('Array', () => {
   describe('#first', () => {
