@@ -11,6 +11,7 @@ import { isEmpty } from './array/isEmpty'
 import { last } from './array/last'
 import { shuffle } from './array/shuffle'
 import { tail } from './array/tail'
+import { uniq } from './array/uniq'
 
 export {
   append,
@@ -25,5 +26,6 @@ export {
   isEmpty,
   last,
   shuffle,
-  tail
+  tail,
+  uniq
 }
