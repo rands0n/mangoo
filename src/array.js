@@ -2,6 +2,7 @@ import { append } from './array/append'
 import { concat } from './array/concat'
 import { contains } from './array/contains'
 import { copy } from './array/copy'
+import { equals } from './array/equals'
 import { filter } from './array/filter'
 import { first } from './array/first'
 import { head } from './array/head'
@@ -16,6 +17,7 @@ export {
   concat,
   contains,
   copy,
+  equals,
   filter,
   first,
   head,
