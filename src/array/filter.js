@@ -1,10 +1,11 @@
-export const filter = (fn, arr = []) => {
+export const filter = (arr = [], fn) => {
   let idx = 0
   let len = arr.length
   let results = []
 
   while (idx < len) {
-    if (fn(arr[idx])) results[results.length] = arr[idx]
+    if (fn(arr[idx], idx, arr))
+      results[results.length] = arr[idx]
 
     idx += 1
   }
