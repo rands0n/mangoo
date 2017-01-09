@@ -1,4 +1,5 @@
 import { append } from './array/append'
+import { compact } from './array/compact'
 import { concat } from './array/concat'
 import { contains } from './array/contains'
 import { copy } from './array/copy'
@@ -15,6 +16,7 @@ import { uniq } from './array/uniq'
 
 export {
   append,
+  compact,
   concat,
   contains,
   copy,
