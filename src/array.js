@@ -6,6 +6,7 @@ import { copy } from './array/copy'
 import { equals } from './array/equals'
 import { filter } from './array/filter'
 import { first } from './array/first'
+import { forEach } from './array/forEach'
 import { head } from './array/head'
 import { indexOf } from './array/indexOf'
 import { isEmpty } from './array/isEmpty'
@@ -23,6 +24,7 @@ export {
   equals,
   filter,
   first,
+  forEach,
   head,
   indexOf,
   isEmpty,
