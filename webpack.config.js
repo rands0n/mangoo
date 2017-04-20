@@ -4,7 +4,9 @@ module.exports = {
   entry: './src/mangoo.js',
   output: {
     path: join(__dirname, 'dist'),
-    filename: 'mangoo.js'
+    filename: 'mangoo.js',
+    libraryTarget: 'var',
+    library: 'M'
   },
   module: {
     loaders: [
