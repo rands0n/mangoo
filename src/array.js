@@ -9,6 +9,7 @@ import { first } from './array/first'
 import { forEach } from './array/forEach'
 import { head } from './array/head'
 import { indexOf } from './array/indexOf'
+import { insert } from './array/insert'
 import { isEmpty } from './array/isEmpty'
 import { last } from './array/last'
 import { shuffle } from './array/shuffle'
@@ -27,6 +28,7 @@ export {
   forEach,
   head,
   indexOf,
+  insert,
   isEmpty,
   last,
   shuffle,
